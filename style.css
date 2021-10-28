@@ -1,0 +1,87 @@
+.header {
+    background: url("image/bg.png") no-repeat center/cover;
+    height: 100vh;
+}
+
+.nav__item a {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.nav__item a img {
+    width: 20px;
+}
+
+.contacts {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.contacts p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+
+}
+
+.contacts__top img {
+    width: 23px;
+    height: 23px;
+}
+.button_header{
+    background: #FF7400;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.header__text h2{
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 57px;
+    color: #D67E35;
+}
+.header__text h1{
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 92px;
+    color: #D67E35;
+}
+.header__text p{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.header__text{
+    margin-left: 12%;
+    margin-top: 15%;
+}
+
+.header__text-border {
+    width: 61px;
+    height: 2px;
+    background-color: #FFFFFF;
+}
+.header__text-border{
+    display: none;
+}
+.navigation{
+    display: none;
+}
+.phone__menu{
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+    width: 31px;
+}
+.phone__menu-item{
+    height: 4px;
+    background: #FF7400;
+    border-radius: 50px;
+}

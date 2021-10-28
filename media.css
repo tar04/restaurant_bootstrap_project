@@ -1,0 +1,23 @@
+@media screen and (max-width: 576px){
+    .header__text h2{
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .header__text h1 {
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 46px;
+    }
+    .header__text div > p{
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .header__text{
+        margin: 160px auto 0;
+    }
+    .logo img{
+        width: 50px;
+    }
+}
