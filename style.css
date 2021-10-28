@@ -29,32 +29,36 @@
 
 }
 
-.button_header{
+.button_header {
     background: #FF7400;
     font-weight: bold;
     font-size: 14px;
     line-height: 19px;
     color: #FFFFFF;
 }
-.header__text h2{
+
+.header__text h2 {
     font-weight: normal;
     font-size: 50px;
     line-height: 57px;
     color: #D67E35;
 }
-.header__text h1{
+
+.header__text h1 {
     font-weight: normal;
     font-size: 80px;
     line-height: 92px;
     color: #D67E35;
 }
-.header__text p{
+
+.header__text p {
     font-weight: normal;
     font-size: 18px;
     line-height: 25px;
     color: #FFFFFF;
 }
-.header__text{
+
+.header__text {
     margin-left: 12%;
     margin-top: 15%;
 }
@@ -64,36 +68,111 @@
     height: 2px;
     background-color: #FFFFFF;
 }
-.phone__menu{
+
+.phone__menu {
     display: flex;
     flex-direction: column;
     row-gap: 4px;
     width: 31px;
 }
-.phone__menu-item{
+
+.phone__menu-item {
     height: 4px;
     background: #FF7400;
     border-radius: 50px;
 }
-.dishes{
+
+.dishes {
     column-gap: 30px;
     bottom: 140px;
 }
-.dishes__item{
+
+.dishes__item {
     height: 328px;
     box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
     background-color: #FFFFFF;
 }
-.dishes__item h2{
+
+.dishes__item h2 {
     font-weight: normal;
     font-size: 26px;
     line-height: 30px;
     color: #2C2C2C;
 }
-.dishes__item p{
+
+.dishes__item h2 span {
+    color: #BC9060;
+}
+
+.dishes__item p {
     font-weight: normal;
     font-size: 26px;
     line-height: 30px;
     text-align: center;
     color: #656363;
+}
+
+.history {
+    min-height: 600px;
+}
+
+.history__text {
+    max-width: 100%;
+}
+
+.history__text-main h2 {
+    font-weight: normal;
+    font-size: 54px;
+    line-height: 62px;
+    color: #000000;
+}
+
+.history__text-main p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #656363;
+}
+
+.history__text-main span {
+    color: #D67E34;
+}
+
+.history__text-info_item h2 {
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 54px;
+    text-align: center;
+    color: #BC9060;
+}
+
+.history__text-info_item p {
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #000000;
+}
+
+.history__text-info {
+    column-gap: 45px;
+}
+.sales{
+    background: url("image/bg1.png") no-repeat center/cover;
+    height: 39vh;
+}
+.sales__text h2{
+    font-weight: normal;
+    font-size: 52px;
+    line-height: 60px;
+    color: #D67E34;
+}
+.sales__text p{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+.sales__text{
+    padding-left: 15%;
 }
