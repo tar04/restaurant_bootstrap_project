@@ -75,3 +75,25 @@
     background: #FF7400;
     border-radius: 50px;
 }
+.dishes{
+    column-gap: 30px;
+    bottom: 140px;
+}
+.dishes__item{
+    height: 328px;
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+    background-color: #FFFFFF;
+}
+.dishes__item h2{
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    color: #2C2C2C;
+}
+.dishes__item p{
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    color: #656363;
+}
