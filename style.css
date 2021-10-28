@@ -29,10 +29,6 @@
 
 }
 
-.contacts__top img {
-    width: 23px;
-    height: 23px;
-}
 .button_header{
     background: #FF7400;
     font-weight: bold;
@@ -67,12 +63,6 @@
     width: 61px;
     height: 2px;
     background-color: #FFFFFF;
-}
-.header__text-border{
-    display: none;
-}
-.navigation{
-    display: none;
 }
 .phone__menu{
     display: flex;
